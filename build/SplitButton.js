@@ -119,7 +119,7 @@ var SplitButton = function (_Component) {
                 _beeButton2["default"],
                 _extends({}, other, { ref: function ref(btn) {
                         return _this2.btn = btn;
-                    }, colors: colors, bordered: true, size: size }),
+                    }, colors: colors, bordered: true, size: size, className: 'split-btn' }),
                 children
             ),
             _react2["default"].createElement(
