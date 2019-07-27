@@ -76,7 +76,7 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 	
-	var Demo1 = __webpack_require__(268);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " 基本示例不同大小", "code": "/**\n*\n* @title 基本示例不同大小\n* @description 不同大小的按钮\n*\n*/\nimport React, { Component } from 'react';\nimport  SplitButton, Menu, Button  from 'ac-split-button';\nconst { Item } = Menu;\n\nclass Demo1 extends Component {\n    render () {\n        const menuList= (\n            <Menu >\n              <Item key=\"1\">借款合同</Item>\n              <Item key=\"2\">抵/质押合同</Item>\n              <Item key=\"3\">担保合同</Item>\n              <Item key=\"4\">联保合同</Item>\n              <Item key=\"5\">合同审批</Item>\n              <Item key=\"6\">抵/质押合同跟踪</Item>\n            </Menu>\n        );\n        return (\n            <div>\n                    <SplitButton menuList={menuList}>按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='primary'>primary按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='success'>success按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='info'>info按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='warning'>warning按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='danger'>danger按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='dark'>dark按钮</SplitButton>\n\n                    <SplitButton menuList={menuList} colors='primary' size=\"sm\">按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='primary'>按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='primary' size=\"lg\">按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='primary' size=\"xg\">按钮</SplitButton>\n                \n            </div>\n        )\n    }\n}\n", "desc": " 不同大小的按钮" }];
+	var Demo1 = __webpack_require__(268);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " 基本示例不同大小", "code": "/**\n*\n* @title 基本示例不同大小\n* @description 不同大小的按钮\n*\n*/\nimport React, { Component } from 'react';\nimport  SplitButton, Menu, Button  from 'ac-split-button';\nconst { Item } = Menu;\n\nclass Demo1 extends Component {\n    render () {\n        const menuList= (\n            <Menu >\n              <Item key=\"1\">借款合同</Item>\n              <Item key=\"2\">抵/质押合同</Item>\n              <Item key=\"3\">担保合同</Item>\n              <Item key=\"4\">联保合同</Item>\n              <Item key=\"5\">合同审批</Item>\n              <Item key=\"6\">抵/质押合同跟踪</Item>\n            </Menu>\n        );\n        return (\n            <div>\n                    <SplitButton menuList={menuList}>按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='primary'>primary按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='success'>success按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='info'>info按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='warning'>warning按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='danger'>danger按钮</SplitButton>\n                    <SplitButton menuList={menuList} colors='dark'>dark按钮</SplitButton>\n            </div>\n        )\n    }\n}\n", "desc": " 不同大小的按钮" }];
 	
 	var Demo = function (_Component) {
 	    _inherits(Demo, _Component);
@@ -34501,26 +34501,6 @@
 	                _src2['default'],
 	                { menuList: menuList, colors: 'dark' },
 	                'dark\u6309\u94AE'
-	            ),
-	            _react2['default'].createElement(
-	                _src2['default'],
-	                { menuList: menuList, colors: 'primary', size: 'sm' },
-	                '\u6309\u94AE'
-	            ),
-	            _react2['default'].createElement(
-	                _src2['default'],
-	                { menuList: menuList, colors: 'primary' },
-	                '\u6309\u94AE'
-	            ),
-	            _react2['default'].createElement(
-	                _src2['default'],
-	                { menuList: menuList, colors: 'primary', size: 'lg' },
-	                '\u6309\u94AE'
-	            ),
-	            _react2['default'].createElement(
-	                _src2['default'],
-	                { menuList: menuList, colors: 'primary', size: 'xg' },
-	                '\u6309\u94AE'
 	            )
 	        );
 	    };
