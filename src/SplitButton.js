@@ -28,7 +28,6 @@ class SplitButton extends Component {
         })
     }
     onVisibleChange=(show)=>{
-        console.log(show)
         this.setState({
             show
         })

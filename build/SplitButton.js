@@ -63,7 +63,6 @@ var SplitButton = function (_Component) {
         var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 
         _this.onVisibleChange = function (show) {
-            console.log(show);
             _this.setState({
                 show: show
             });
