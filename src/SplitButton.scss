@@ -9,6 +9,7 @@
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
         cursor: pointer;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     }
     .uf-anglearrowdown {
         transform: rotateX(0deg);
@@ -26,6 +27,7 @@
         border-bottom-right-radius: 0;
         color: #212121;
         border: 1px solid #a5adba;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
         // &:hover{
         //     background-color: #fff;
         // }
