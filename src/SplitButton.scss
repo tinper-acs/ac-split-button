@@ -103,4 +103,16 @@
             top: 11px;
         }
     }
+    .u-button.disable, .u-button.disable:active, 
+    .u-button.disable:focus, .u-button.disable:hover, 
+    .u-button.u-button[disabled], 
+    .u-button.u-button[disabled]:active, 
+    .u-button.u-button[disabled]:focus, 
+    .u-button.u-button[disabled]:hover,
+    .icon-out[disabled],.icon-out[disabled]:hover{
+        background: #fff;
+        color: #dfe1e6;
+        border-color: #a5adba;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    }
 }

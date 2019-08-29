@@ -66,3 +66,14 @@
     bottom: 9px; }
     .ac-split-button.xg .icon-out .uf-anglearrowdown {
       top: 11px; }
+  .ac-split-button .u-button.disable, .ac-split-button .u-button.disable:active,
+  .ac-split-button .u-button.disable:focus, .ac-split-button .u-button.disable:hover,
+  .ac-split-button .u-button.u-button[disabled],
+  .ac-split-button .u-button.u-button[disabled]:active,
+  .ac-split-button .u-button.u-button[disabled]:focus,
+  .ac-split-button .u-button.u-button[disabled]:hover,
+  .ac-split-button .icon-out[disabled], .ac-split-button .icon-out[disabled]:hover {
+    background: #fff;
+    color: #dfe1e6;
+    border-color: #a5adba;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2); }
