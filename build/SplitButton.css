@@ -18,7 +18,8 @@
     padding: 0;
     position: relative;
     top: 3px;
-    padding: 0 2px; }
+    padding: 0 2px;
+    font-size: 15px; }
     .ac-split-button .uf-anglearrowdown::after {
       content: "";
       width: 1px;
@@ -26,7 +27,6 @@
       background: linear-gradient(180deg, #fff, #a5a5a5 50%, #fff);
       opacity: .5;
       position: absolute;
-      top: 2px;
       left: 0; }
   .ac-split-button .uf-anglearrowdown.show {
     transform: rotateX(180deg);
@@ -38,7 +38,7 @@
     border: 1px solid #d0d0d0;
     border-right: none;
     box-shadow: none;
-    font-size: 13px; }
+    font-size: 12px; }
   .ac-split-button-dropdown .u-dropdown-menu > .u-dropdown-menu-item-selected {
     color: #000;
     background: none; }
